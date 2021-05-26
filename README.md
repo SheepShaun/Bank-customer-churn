@@ -28,7 +28,7 @@ After checking the missing values in this dataset, it showed no missing values.
 - Data modeling <br>
 Studied the correlation between every features and churn outcome. <br>
 Divided the whole data into training data and test data. <br>
-Built several machine learning models (Gaussian naive bayes, logistic regression, linear discriminant analysis, quadratic discriminant analysis, decision tree, support vector machine, k-nearest neighbors, random forest) to predict the customer churn.
+Built several machine learning models (logistic regression, decision tree, support vector machine, and random forest) to predict the customer churn.
 
 - Evaluate the results <br>
 Evaluated the predictions with accuracy, f1 score, and confusion matrix.
