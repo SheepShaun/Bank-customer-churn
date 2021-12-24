@@ -16,7 +16,7 @@ For this project, I was interestested in using the bank customer churn to addres
 1. What are the main factors, which affect the customer churn?
 2. How does these main factors affect the customer churn?
 3. Which is the best method to predict the churn?
-4. Whether the SMOTE method can improve the prediction accuracy?
+4. Whether the prediction accuracy can be improved using the SMOTE method for imbalance data?
 
 - Data understanding <br>
 The bank customer churn data was obtained from Kaggle. It is stored in a csv file, named as "bank customer churn dataset". It has 14 columns, called features, including row number, customer id, surname, credit score, geography, gender, age, tenure, balance, number of products purchased through the bank, whether has a credit card, whether is an active member, estimated salary, and whether exited from the bank. <br>
@@ -31,7 +31,7 @@ Divided the whole data into training data and test data. <br>
 Built several machine learning models (logistic regression, decision tree, support vector machine, and random forest) to predict the customer churn.
 
 - Evaluate the results <br>
-Evaluated the predictions with accuracy, f1 score, and confusion matrix.
+Evaluated the predictions with accuracy and confusion matrix.
 
 ## Results<a name="results"></a>
 
